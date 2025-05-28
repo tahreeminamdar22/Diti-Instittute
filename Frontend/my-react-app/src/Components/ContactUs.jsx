@@ -13,7 +13,7 @@ function ContactUs() {
     e.preventDefault();
     const form = new FormData(e.target);
 
-    await fetch("http://192.168.68.138/diti/index.php", {
+    await fetch("http://loalhost/diti/index.php", {
       method: "POST",
       body: form,
     });
