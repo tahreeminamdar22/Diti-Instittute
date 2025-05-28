@@ -9,8 +9,21 @@ import { faLocationDot } from '@fortawesome/free-solid-svg-icons';
 import { faEnvelope, faPhone } from '@fortawesome/free-solid-svg-icons';
 
 function ContactUs() {
+   const handleSubmit = async (e) => {
+    e.preventDefault();
+    const form = new FormData(e.target);
+
+    await fetch("http://localhost/diti/contact.php", {
+      method: "POST",
+      body: form,
+    });
+    
+    alert("Message sent!");
+  };
   return (
+    
     <>
+      
       <Header />
       <section className="pt-115 pb-120">
         <div className="container pb-20 m-20">
@@ -23,12 +36,13 @@ function ContactUs() {
                   <p>Have a question or just want to say hi? We'd love to hear from you.</p>
                 </div>
                 <div className="mb-30" style={{textAlign: "justify"}}>
-                  <form className="row g-3 pb-20">
+                  <form className="row g-3 pb-20" method="post" onSubmit={handleSubmit}>
                     <div className="col-xxl-6 col-xl-6 col-md-6">
                       <input
                         className="input-field form-control"
                         type="text"
                         id="fullname"
+                        name="name"
                         placeholder="Enter Full Name"
                         required
                       />
@@ -39,6 +53,7 @@ function ContactUs() {
                         className="input-field form-control"
                         type="tel"
                         id="phone"
+                        name="mobile"
                         placeholder="Enter Phone Number"
                         required
                       />
@@ -49,6 +64,7 @@ function ContactUs() {
                         className="input-field form-control"
                         type="email"
                         id="email"
+                        name="email"
                         placeholder="johndoe@gmail.com"
                         required
                       />
