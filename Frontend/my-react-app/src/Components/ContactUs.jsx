@@ -13,12 +13,12 @@ function ContactUs() {
     e.preventDefault();
     const form = new FormData(e.target);
 
-    await fetch("http://localhost/diti/contact.php", {
+    await fetch("http://localhost/diti/index.php", {
       method: "POST",
       body: form,
     });
     
-    alert("Message sent!");
+    alert("Successfully connected to backend!");
   };
   return (
     
