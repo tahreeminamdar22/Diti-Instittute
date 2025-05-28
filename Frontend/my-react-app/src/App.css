@@ -118,11 +118,16 @@ body {
 }
 .course-card {
     border-radius: 6px;
-    overflow: hidden;
+    border: 1px solid black;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 ;
 }
+.card-img-top {
+  transition: transform 0.3s ease-out, box-shadow 0.3s ease-out;
+}
+
 .card-img-top:hover {
-  transform: (1.05, 1.05) rotate(2deg);
+  transform: scale(1.05) rotate(2deg);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
 }
 

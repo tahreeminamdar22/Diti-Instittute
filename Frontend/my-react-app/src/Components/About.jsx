@@ -37,15 +37,15 @@ function About(){
                             DITI offers both on-site and online training<br /> 
                             programs for working and non-working students and<br /> professionals also
                         </p>
-                        <div class=" home-about-feature-list mb-10" >
-                            <ul style={{fontSize: '24px', gap: '1rem', listStyleType: "none", opacity: "0.85"}}>
-                                <li><span style={{   marginRight: "10px" }}><FontAwesomeIcon icon={faUserGroup} color="blue" /></span>
+                        <div class=" d-flex align-items-center justify-content-centerflex-wrap home-about-feature-list mb-10" >
+                            <ul className="d-flex flex-wrap list-unstyled justify-content-start align-items-center" style={{fontSize: '24px', gap: '1rem', opacity: "0.85"}}>
+                                <li className="col-12 col-md-6 mb-3 mb-2"><span style={{   marginRight: "10px" }}><FontAwesomeIcon icon={faUserGroup} color="blue" /></span>
                                 Highly Skilled Teachers</li>
-                                <li><span style={{   marginRight: "10px" }}><FontAwesomeIcon icon ={faFilePen}  color="blue" /></span>
+                                <li className="col-12 col-md-6 mb-3 mb-2"><span style={{   marginRight: "10px" }}><FontAwesomeIcon icon ={faFilePen}  color="blue" /></span>
                                 Efficient &amp; Flexible Timing</li>
-                                <li><span style={{   marginRight: "10px" }}><FontAwesomeIcon icon={faChartPie} color="blue" /></span><span> </span>
+                                <li className="col-12 col-md-6 mb-3 mb-2"><span style={{   marginRight: "10px" }}><FontAwesomeIcon icon={faChartPie} color="blue" /></span><span> </span>
                                 Corporate Training</li>
-                                <li><span style={{   marginRight: "10px" }}><FontAwesomeIcon icon={faBarsProgress} color="blue" /></span><span> </span>
+                                <li className="col-12 col-md-6 mb-3 mb-2"><span style={{   marginRight: "10px" }}><FontAwesomeIcon icon={faBarsProgress} color="blue" /></span><span> </span>
                                 Affordable Courses</li>
                             </ul>
                         </div>
@@ -53,7 +53,7 @@ function About(){
 
 <button className="btn btn-primary d-inline-flex align-items-center" type="button">
  <Link to="/aboutUs" className="nav-link">Explore More</Link>
-  <BsArrowRightShort className="ms-2" size={20} aria-hidden="true" /> 
+  <BsArrowRightShort className="ms-2" size={30} aria-hidden="true" /> 
 </button>
 
                     </div>
