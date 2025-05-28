@@ -5,7 +5,7 @@ function FormSection(){
     const handleSubmit = async(event) => {
         event.preventDefault();
         const form = new FormData(event.target);
-         await fetch("http://localhost/diti/formsection.php", {
+         await fetch("http:// 192.168.68.138/diti/formsection.php", {
       method: "POST",
       body: form,
     });

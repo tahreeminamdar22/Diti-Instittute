@@ -64,11 +64,11 @@ function Footer(){
                                 </li> 
 
                                 <li className="ms-3">
-                                  <a className="link-body-emphasis" href="#" aria-label="Courses"><Link to="/allCourses">About</Link></a>
+                                  <a className="link-body-emphasis" href="#" aria-label="Courses"><Link to="/allCourses">Courses</Link></a>
                                 </li> 
 
                                 <li className="ms-3">
-                                  <a className="link-body-emphasis" href="#" aria-label="Services"><Link to="/contactUs">About</Link></a>
+                                  <a className="link-body-emphasis" href="#" aria-label="Services"><Link to="/contactUs">Contact Us</Link></a>
                                 </li> 
 
                                 

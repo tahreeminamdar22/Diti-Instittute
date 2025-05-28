@@ -13,7 +13,7 @@ function ContactUs() {
     e.preventDefault();
     const form = new FormData(e.target);
 
-    await fetch("http://localhost/diti/index.php", {
+    await fetch("http:// 192.168.68.138/diti/index.php", {
       method: "POST",
       body: form,
     });
@@ -90,7 +90,7 @@ function ContactUs() {
                   </form>
                 </div>
 
-                <div className="ajax-response"></div>
+               
               </div>
             </div>
 
