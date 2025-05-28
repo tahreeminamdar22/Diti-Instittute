@@ -28,17 +28,7 @@ function Header(){
                        <Link to="/allCourses" className="nav-link">Courses</Link>
                     </li> 
                     
-                    <li className="nav-item">
-                        <a href="#" className="nav-link" >Services</a>
-                    </li> 
                     
-                    <li className="nav-item">
-                        <a href="#" className="nav-link">Gallery</a>
-                    </li> 
-
-                    <li className="nav-item">
-                        <a href="#" className="nav-link">Placement</a>
-                    </li> 
 
                     <li className="nav-item">
                          <Link to="/contactUs" className="nav-link">Contact Us</Link>

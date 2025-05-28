@@ -2,7 +2,7 @@ import React from "react";
 import { FaInstagram, FaFacebook, FaTwitter, FaGoogle, FaYoutube } from 'react-icons/fa';
 import ditilogo4 from "../assets/ditilogo4.png";
 import '../App.css';
-
+import { Link } from "react-router-dom";
 function Footer(){
     return(
         <>
@@ -60,24 +60,18 @@ function Footer(){
                     <div className="col-lg-4 col-md-3 col-sm-6 mb-4 mb-lg-0">
                             <ul className="list-unstyled d-flex"> 
                                 <li className="ms-3">
-                                  <a className="link-body-emphasis" href="#" aria-label="About">About</a>
+                                  <a className="link-body-emphasis" href="#" aria-label="About"><Link to="/aboutUs">About</Link></a>
                                 </li> 
 
                                 <li className="ms-3">
-                                  <a className="link-body-emphasis" href="#" aria-label="Courses">Courses</a>
+                                  <a className="link-body-emphasis" href="#" aria-label="Courses"><Link to="/allCourses">About</Link></a>
                                 </li> 
 
                                 <li className="ms-3">
-                                  <a className="link-body-emphasis" href="#" aria-label="Services">Services</a>
+                                  <a className="link-body-emphasis" href="#" aria-label="Services"><Link to="/contactUs">About</Link></a>
                                 </li> 
 
-                                <li className="ms-3">
-                                  <a className="link-body-emphasis" href="#" aria-label="gallery">Gallery</a>
-                                </li> 
-
-                                <li className="ms-3">
-                                  <a className="link-body-emphasis" href="#" aria-label="Placement">Placement</a>
-                                </li> 
+                                
                             </ul>
                     </div>
                 </div>
