@@ -39,13 +39,13 @@ function About(){
                         </p>
                         <div class=" d-flex align-items-center justify-content-center flex-wrap home-about-feature-list mb-10" >
                             <ul className="d-flex flex-wrap list-unstyled justify-content-start align-items-center" style={{fontSize: '22px', gap: '0.5rem', opacity: "0.85"}}>
-                                <li className="col-md-8 col-lg-6 mb-3 mb-3"><span style={{   marginRight: "10px" }}><FontAwesomeIcon icon={faUserGroup} color="blue" /></span>
+                                <li className="col-md-8 col-lg-6 mb-3"><span style={{   marginRight: "10px" }}><FontAwesomeIcon icon={faUserGroup} color="blue" /></span>
                                 Highly Skilled Teachers</li>
-                                <li className="col-md-8 col-lg-6 mb-2 mb-2"><span style={{   marginRight: "8px" }}><FontAwesomeIcon icon ={faFilePen}  color="blue" /></span>
+                                <li className="col-md-8 col-lg-6 mb-3"><span style={{   marginRight: "8px" }}><FontAwesomeIcon icon ={faFilePen}  color="blue" /></span>
                                 Efficient and Flexible Timing</li>
-                                <li className="col-md-8 col-lg-6 mb-3 mb-3"><span style={{   marginRight: "10px" }}><FontAwesomeIcon icon={faChartPie} color="blue" /></span><span> </span>
+                                <li className="col-md-8 col-lg-6 mb-3"><span style={{   marginRight: "10px" }}><FontAwesomeIcon icon={faChartPie} color="blue" /></span>
                                 Corporate Training</li>
-                                <li className="col-md-8 col-lg-6 mb-3 mb-3"><span style={{   marginRight: "10px" }}><FontAwesomeIcon icon={faBarsProgress} color="blue" /></span><span> </span>
+                                <li className="col-md-8 col-lg-6 mb-3"><span style={{   marginRight: "10px" }}><FontAwesomeIcon icon={faBarsProgress} color="blue" /></span>
                                 Affordable Courses</li>
                             </ul>
                         </div>
