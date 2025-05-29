@@ -9,11 +9,11 @@ import { faLocationDot } from '@fortawesome/free-solid-svg-icons';
 import { faEnvelope, faPhone } from '@fortawesome/free-solid-svg-icons';
 
 function ContactUs() {
-   const handleSubmit = async (e) => {
-    e.preventDefault();
-    const form = new FormData(e.target);
+   const handleSubmit = async (event) => {
+    event.preventDefault();
+    const form = new FormData(event.target);
 
-    await fetch("http://loalhost/diti/index.php", {
+    await fetch("http://localhost/diti/index.php", {
       method: "POST",
       body: form,
     });
