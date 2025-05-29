@@ -4,6 +4,8 @@ import Header from './Header';
 import Cta from './Cta';
 import Footer from './Footer';
 import aboutus from "../assets/About/aboutUs.jpg";
+import aboutShapes1 from "../assets/aboutShapes1.png";
+
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faCheck } from '@fortawesome/free-solid-svg-icons';
 
@@ -25,6 +27,12 @@ function AboutUs() {
                   className="img-fluid rounded"
                   style={{ height: "100%", width: "100%", objectFit: "cover" }}
                 />
+              </div>
+              <div>
+                <img src={aboutShapes1 } alt="background-Image" loading='lazy'
+              style={{ position: "absolute", top: "-50px", left: "0", height:"auto", width: "auto", 
+                zIndex: "-1", opacity: "0.8", objectFit: "cover" }}
+              />
               </div>
             </div>
 

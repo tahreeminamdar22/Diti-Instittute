@@ -8,13 +8,13 @@ import { Link } from "react-router-dom";
 function Courses(){
     return(
         <>
-        <div style={{paddingTop: "40px", paddingBottom: "40px"}}>
+        <div style={{paddingTop: "40px", paddingBottom: "40px", backgroundColor: "#f5f7fb"}}>
            <div className="container">
-            <div class="row align-items-end">
-                <div class="col-lg-8">
-                    <div class=" mb-30" style={{textAlign: "justify"}}>
-                        <h3 class="mb-10" style={{fontSize: "38px"}}>Our Popular Courses.</h3>
-                        <p>DITI provides best IT industrial courses for future development.</p>
+            <div className="row align-items-end">
+                <div className="col-lg-8">
+                    <div className=" mb-4" style={{textAlign: "justify"}}>
+                        <h3 className="mb-10" style={{fontSize: "38px", fontWeight: "500" }}>Our Popular Courses.</h3>
+                        <p><b>DITI provides best IT industrial courses for future development.</b></p>
                     </div>
                 </div>
             </div>
@@ -77,10 +77,13 @@ function Courses(){
     
     
   </div>
-<button className="btn btn-secondary d-inline-flex align-items-center" type="button">
-   <Link to="/allCourses" className="nav-link">All Courses</Link>
+<Link 
+  to="/allCourses" 
+  className="btn btn-secondary d-inline-flex align-items-center text-decoration-none"
+>
+  All Courses
   <BsArrowRightShort className="ms-2" size={20} aria-hidden="true" />
-</button>
+</Link>
 </div>
 
            </div>

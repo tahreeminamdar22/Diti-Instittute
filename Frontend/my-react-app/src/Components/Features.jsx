@@ -10,11 +10,11 @@ function Features(){
         <div className="container" > 
             <div className="row gx-0">
             <div className="row g-4 py-5 row-cols-1 row-cols-lg-3" > 
-                <div className="col-md-4" style={{ width: "380px" }}>
+                <div className="col-md-4" >
                 <div className="col d-flex align-items-start features" style={{backgroundColor: "#ffa423", borderRadius: "10px 0 0 10px"}}> 
                     <div className="text-body-emphasis 
-                    d-inline-flex align-items-center justify-content-center fs-4 flex-shrink-0 me-3"> 
-                       <FontAwesomeIcon icon={faLaptop} className="animate__flip" size="2x" color="white"  />
+                    d-inline-flex align-items-center justify-content-center fs-4 flex-shrink-0 me-3 animate__animated animate__flip feature-icon"> 
+                       <FontAwesomeIcon icon={faLaptop} size="2x" color="white"  />
                    </div> 
                 <div> 
                 
@@ -27,7 +27,7 @@ function Features(){
          <div className="col-md-4" >
         <div className="col d-flex align-items-start features" style={{backgroundColor: "rgb(44, 121, 255)"}}> 
             <div className="text-body-emphasis 
-                    d-inline-flex align-items-center justify-content-center fs-4 flex-shrink-0 me-3"> 
+                    d-inline-flex align-items-center justify-content-center fs-4 flex-shrink-0 me-3 animate__animated animate__flip feature-icon"> 
                        <FontAwesomeIcon icon={faCloudArrowDown} size="2x" color="white" />
                    </div> 
             
@@ -41,7 +41,7 @@ function Features(){
         <div className="col-md-4">
         <div className="col d-flex align-items-start features" style={{backgroundColor: "rgb(162, 0, 255)", borderRadius: "0 10px 10px 0"}}> 
             <div className="text-body-emphasis 
-                    d-inline-flex align-items-center justify-content-center fs-4 flex-shrink-0 me-3"> 
+                    d-inline-flex align-items-center justify-content-center fs-4 flex-shrink-0 me-3 animate__animated animate__flip feature-icon"> 
                        <FontAwesomeIcon icon={faCertificate} size="2x" color="white" />
                    </div> 
         

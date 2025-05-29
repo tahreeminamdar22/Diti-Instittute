@@ -17,6 +17,7 @@ body {
     margin-bottom: 20px;
 }
 .features {
+    height: 100%;
     padding: 35px 50px;
     transition: all 0.3s ease-out 0s;
     position: relative;
@@ -30,9 +31,16 @@ body {
   font-size: 20px;
 
 }
-.home-about-feature-list ul li:hover i {
-    transform: rotateY(-180deg);
+.feature-icon {
+  color: #333;
+  transition: all 0.3s ease-out;
+  transform-style: preserve-3d;
 }
+
+.feature-icon:hover {
+   transform: rotateY(-180deg);
+}
+
 .home-about-feature-list ul li {
  list-style: none;
   font-size: 16px;
@@ -130,4 +138,44 @@ body {
   transform: scale(1.05) rotate(2deg);
   box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
 }
+.accordion-item {
+    background-color: #fff;
+    border: 1px solid rgba(0, 0, 0, .125);
+}
+.accordion-header {
+      margin-bottom: 0;
+}
+.card-body {
+  padding: 1.25rem;
+}
+.lines {
+    position: absolute;
+    right: 0px;
+    top: 1500px;
+    z-index: 1;
+    animation: swing 1s ease-in-out 1s forwards infinite alternate;
+}
+swing animation {
+    transform: rotate(-4.20955deg);
+}
+.role {
+  position: absolute;
+    left: 100px;
+    top: 50%;
+    z-index: -1;
+    animation: role-float 6s infinite alternate;
+}
+role-float  animation {
+    transform: translate(0.369426px, -0.369426px) rotate(0deg) scale(1);
+}
+.book {
+    position: absolute;
+    left: 50%;
+    top: 150px;
+    z-index: -1;
+    animation: book 6s infinite alternate;
+}
 
+book animation {
+    transform: translate(29.8747px, -29.8747px) rotate(0deg) scale(1);
+}

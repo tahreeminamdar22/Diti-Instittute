@@ -14,7 +14,7 @@ function FormSection(){
   };
     return(
         <>
-        <div class="container col-xl-10 col-xxl-8 px-4 py-5"> 
+        <div class="container col-xl-10 col-xxl-8 px-4 py-5 w-100" style={{backgroundColor: "#f5f7fb"}}> 
             <div class="row align-items-center "> 
                 <div class="col-lg-6  mb-40"> 
                     <h3 className="mb-15" style={{fontSize: "40px"}}><b>100% Job Oriented Courses <span style={{color: "#2c79ff"}}>50+</span>  

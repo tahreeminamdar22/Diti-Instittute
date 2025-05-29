@@ -24,31 +24,31 @@ function Footer(){
                             <ul className="list-unstyled d-flex"> 
                                 <li className="ms-3">
                                   <a className="link-body-emphasis" href="#" aria-label="Instagram">
-                                   <FaInstagram size={24} />
+                                   <FaInstagram size={30} />
                                   </a>
                                 </li> 
                     
                                 <li className="ms-3">
                                    <a className="link-body-emphasis" href="#" aria-label="Facebook">
-                                     <FaFacebook size={24} /> 
+                                     <FaFacebook size={30} /> 
                                    </a>
                                 </li> 
 
                                 <li className="ms-3">
                                   <a className="link-body-emphasis" href="#" aria-label="Twitter">
-                                    <FaTwitter size={24} /> 
+                                    <FaTwitter size={30} /> 
                                   </a>
                                 </li> 
 
                                 <li className="ms-3">
                                   <a className="link-body-emphasis" href="#" aria-label="Google">
-                                    <FaGoogle size={24} /> 
+                                    <FaGoogle size={30} /> 
                                   </a>
                                 </li> 
 
                                 <li className="ms-3">
                                    <a className="link-body-emphasis" href="#" aria-label="Youtube">
-                                     <FaYoutube size={24} /> 
+                                     <FaYoutube size={30} /> 
                                    </a>
                                 </li> 
                             </ul> 
@@ -56,19 +56,19 @@ function Footer(){
                     </div>   
                 </div> 
                 
-                <div style={{ display: "flex", justifyContent: "center", gap: "20px", marginBottom: "10px", marginTop: "10px" }}>
+                <div style={{ display: "flex", justifyContent: "center", gap: "20px", marginBottom: "10px", marginTop: "10px", fontSize: "1.2rem", fontWeight: "bold" }}>
                     <div className="col-lg-4 col-md-3 col-sm-6 mb-4 mb-lg-0">
                             <ul className="list-unstyled d-flex"> 
                                 <li className="ms-3">
-                                  <Link to="/aboutUs" className="link-body-emphasis">About</Link>
+                                  <Link to="/aboutUs" className="link-body-emphasis text-decoration-none">About</Link>
                                 </li> 
 
                                 <li className="ms-3">
-                                  <Link to="/allCourses" className="link-body-emphasis">Courses</Link>
+                                  <Link to="/allCourses" className="link-body-emphasis text-decoration-none">Courses</Link>
                                 </li> 
 
                                 <li className="ms-3">
-                                 <Link to="/contactUs" className="link-body-emphasis">Contact Us</Link>
+                                 <Link to="/contactUs" className="link-body-emphasis text-decoration-none">Contact Us</Link>
                                 </li> 
 
                                 

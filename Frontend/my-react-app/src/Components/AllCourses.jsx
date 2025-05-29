@@ -13,6 +13,7 @@ import basiccomputer from "../assets/Courses/basiccomputer.jpg";
 import cloud from "../assets/Courses/cloud.jpg";
 import dataanalytics from "../assets/Courses/dataanalytics.jpg";
 import testing from "../assets/Courses/testing.png";
+import { Link } from "react-router-dom";
 import { BsArrowRightShort } from "react-icons/bs";
 
 function AllCourses(){
@@ -31,7 +32,7 @@ function AllCourses(){
                     </div>
 
                     <div className="row">
-                        <div className="col-lg-4 col-md-6" style={{ paddingBottom: "20px" }}>
+                        <div className="col-lg-4 col-md-6 h-100" style={{ paddingBottom: "20px" }}>
                             <div className="course-card">
                                 <div className="card h-100 text-center">
                                         <img
@@ -43,10 +44,11 @@ function AllCourses(){
                                           <p className="card-text">
                                             Every business uses data stored in databases to make informed business decisions.
                                           </p>
-                                          <button className="btn btn-primary row justify-content-center align-items-center w-50 h-100 pt40 pb40 " type="button">
+                                          <Link  to="/Database"  className="btn btn-primary 
+                                          d-inline-flex align-items-center text-decoration-none">
                                             View More
-                                          <BsArrowRightShort className="ms-1" size={20} aria-hidden="true" />
-                                          </button>
+                                               <BsArrowRightShort className="ms-2" size={20} aria-hidden="true" />
+                                          </Link>
                                         </div>
                                 </div>
                             </div>
@@ -65,10 +67,11 @@ function AllCourses(){
                                           <p className="card-text">
                                             The Java programming language, which is widely used with corporate applications and Android mobile operating systems.
                                           </p>
-                                          <button className="btn btn-primary row justify-content-center align-items-center w-50 h-100 pt40 pb40 " type="button">
+                                           <Link  to="/Java"  className="btn btn-primary 
+                                          d-inline-flex align-items-center text-decoration-none">
                                             View More
-                                          <BsArrowRightShort className="ms-1" size={20} aria-hidden="true" />
-                                          </button>
+                                               <BsArrowRightShort className="ms-2" size={20} aria-hidden="true" />
+                                          </Link>
                                         </div>
                                 </div>
                             </div>
@@ -85,10 +88,11 @@ function AllCourses(){
                                           <p className="card-text">
                                             Website is an integral parts of every business and DITI is helping in learning this concept to build your own website.
                                           </p>
-                                          <button className="btn btn-primary row justify-content-center align-items-center w-50 h-100 pt40 pb40 " type="button">
+                                          <Link  to="/WebDev"  className="btn btn-primary 
+                                          d-inline-flex align-items-center text-decoration-none">
                                             View More
-                                          <BsArrowRightShort className="ms-1" size={20} aria-hidden="true" />
-                                          </button>
+                                               <BsArrowRightShort className="ms-2" size={20} aria-hidden="true" />
+                                          </Link>
                                         </div>
                                 </div>
                             </div>
