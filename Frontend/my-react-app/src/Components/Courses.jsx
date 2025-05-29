@@ -13,7 +13,7 @@ function Courses(){
             <div class="row align-items-end">
                 <div class="col-lg-8">
                     <div class=" mb-40" style={{textAlign: "justify"}}>
-                        <h3 class="mb-15" style={{fontSize: "40px"}}>Our Popular Courses.</h3>
+                        <h3 class="mb-12" style={{fontSize: "38px"}}>Our Popular Courses.</h3>
                         <p>DITI provides best IT industrial courses for future development.</p>
                     </div>
                 </div>

@@ -60,15 +60,15 @@ function Footer(){
                     <div className="col-lg-4 col-md-3 col-sm-6 mb-4 mb-lg-0">
                             <ul className="list-unstyled d-flex"> 
                                 <li className="ms-3">
-                                  <a className="link-body-emphasis" href="#" aria-label="About"><Link to="/aboutUs">About</Link></a>
+                                  <Link to="/aboutUs" className="link-body-emphasis">About</Link>
                                 </li> 
 
                                 <li className="ms-3">
-                                  <a className="link-body-emphasis" href="#" aria-label="Courses"><Link to="/allCourses">Courses</Link></a>
+                                  <Link to="/allCourses" className="link-body-emphasis">Courses</Link>
                                 </li> 
 
                                 <li className="ms-3">
-                                  <a className="link-body-emphasis" href="#" aria-label="Services"><Link to="/contactUs">Contact Us</Link></a>
+                                 <Link to="/contactUs" className="link-body-emphasis">Contact Us</Link>
                                 </li> 
 
                                 

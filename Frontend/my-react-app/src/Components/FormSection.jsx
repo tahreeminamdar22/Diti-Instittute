@@ -36,7 +36,7 @@ function FormSection(){
                             <div className="mb-20">
                             <label for="number"><b>Enter Phone Number:</b></label>
                             <input type="tel" class="form-control" id="floatingInput" name="number"
-                            placeholder="Phone NUmber: 9876543210"  required/> 
+                            placeholder="Phone Number: 9876543210"  required/> 
                              
                             </div>
                         </div> 
