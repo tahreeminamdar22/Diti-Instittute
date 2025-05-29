@@ -13,7 +13,7 @@ import '../App.css';
 function About(){
     return(
         <>
-        <div className="container">
+        <div className="container-fluid">
             <div className="row align-items-center">
                 <div className="col-lg-6">
                     <div style={{ position: "relative", paddingTop: "20px", paddingBottom: "20px", overFlow:"fix" }}>
@@ -37,15 +37,15 @@ function About(){
                             DITI offers both on-site and online training<br /> 
                             programs for working and non-working students and<br /> professionals also
                         </p>
-                        <div class=" d-flex align-items-center justify-content-center flex-wrap home-about-feature-list mb-10" >
-                            <ul className="d-flex flex-wrap list-unstyled justify-content-start align-items-center" style={{fontSize: '22px', gap: '0.5rem', opacity: "0.85"}}>
-                                <li className="col-md-8 col-lg-6 mb-3"><span style={{   marginRight: "10px" }}><FontAwesomeIcon icon={faUserGroup} color="blue" /></span>
+                        <div className=" d-flex row align-items-center justify-content-center flex-wrap home-about-feature-list mb-15" >
+                            <ul className="col-lg-10 align-items-start list-unstyled" style={{fontSize: '21px', gap: '0.5rem', opacity: "0.85"}}>
+                                <li className="col-md-8 col-lg-6"><span style={{   marginRight: "10px" }}><FontAwesomeIcon icon={faUserGroup} color="blue" /></span>
                                 Highly Skilled Teachers</li>
-                                <li className="col-md-8 col-lg-6 mb-3"><span style={{   marginRight: "8px" }}><FontAwesomeIcon icon ={faFilePen}  color="blue" /></span>
-                                Efficient and Flexible Timing</li>
-                                <li className="col-md-8 col-lg-6 mb-3"><span style={{   marginRight: "10px" }}><FontAwesomeIcon icon={faChartPie} color="blue" /></span>
+                                <li className="col-md-8 col-lg-6"><span style={{   marginRight: "8px" }}><FontAwesomeIcon icon ={faFilePen}  color="blue" /></span>
+                                Efficient + Flexible Timing</li>
+                                <li className="col-md-8 col-lg-6"><span style={{   marginRight: "10px" }}><FontAwesomeIcon icon={faChartPie} color="blue" /></span>
                                 Corporate Training</li>
-                                <li className="col-md-8 col-lg-6 mb-3"><span style={{   marginRight: "10px" }}><FontAwesomeIcon icon={faBarsProgress} color="blue" /></span>
+                                <li className="col-md-8 col-lg-6"><span style={{   marginRight: "10px" }}><FontAwesomeIcon icon={faBarsProgress} color="blue" /></span>
                                 Affordable Courses</li>
                             </ul>
                         </div>
